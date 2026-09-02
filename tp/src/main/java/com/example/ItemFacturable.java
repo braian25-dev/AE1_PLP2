@@ -1,3 +1,5 @@
+package com.example;
+
 public class ItemFacturable {
 
     private String codigo;
