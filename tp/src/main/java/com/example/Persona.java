@@ -9,13 +9,13 @@ public abstract class Persona {
     
     private String nombre;
     private String domicilio;
-    private String DNI;
+    private String dni;
     private String telefono;
 
-    public Persona(String nombre, String domicilio, String DNI, String telefono){
+    public Persona(String nombre, String domicilio, String dni, String telefono){
         this.nombre = nombre;
         this.domicilio = domicilio;
-        this.DNI = DNI;
+        this.dni = dni;
         this.telefono = telefono;
     }
 
@@ -28,7 +28,7 @@ public abstract class Persona {
     }
 
     public String getDNI() {
-        return DNI;
+        return dni;
     }
 
     public String getTelefono() {
