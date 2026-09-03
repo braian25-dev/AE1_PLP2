@@ -19,14 +19,27 @@ public class Cliente extends Persona {
     }
 
     public void agregarFactura(Factura factura){
-        if (CantidadFacturas < historial.lengt) {
-            historial[CantidadFacturas] = factura;
+        if (cantidadFacturas < historial.length) {
+            historial[cantidadFacturas] = factura;
             cantidadFacturas++;
         } else {
-            Sistem.out.println("No se puede agregar la factura: historial completo.")
+            System.out.println("No se puede agregar la factura: historial completo.");
         }
     }
 
+    public double getLimiteCredito() {
+        return limiteCredito;
+    }
 
+    public String getCategoria() {
+        return categoria;
+    }
 
+    public Factura[] getHistorial() {
+        return historial;
+    }
+
+    public int getCantidadFacturas() {
+        return cantidadFacturas;
+    }
 }
