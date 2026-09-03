@@ -1,5 +1,4 @@
 package com.example;
-
 /**
  * Proveedor de productos/servicios. Mantiene su catálogo mediante
  * un arreglo de capacidad fja (no colecciones de Java).
@@ -17,7 +16,7 @@ public class Proveedor extends Persona {
 
     public Proveedor(String nombre, String domicilio, String dni, String telefono, 
                         String razonSocial, String cuit) {
-        super(nombre, domicilio, dni, telefono) 
+        super(nombre, domicilio, dni, telefono);
         this.razonSocial = razonSocial;
         this.cuit = cuit;
         this.productos = new Producto[CAPACIDAD_PRODUCTOS];
