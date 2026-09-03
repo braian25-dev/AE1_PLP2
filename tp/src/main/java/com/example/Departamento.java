@@ -30,5 +30,23 @@ public class Departamento {
         }
     }
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public double getPresupuesto() {
+        return presupuesto;
+    }
+
+    public Empleado getResponsable() {
+        return responsable;
+    }
+
+    public Empleado[] getEmpleados() {
+        return empleados;
+    }
+
+    public int getCantidadEmpleados() {
+        return cantidadEmpleados;
+    }
 }
