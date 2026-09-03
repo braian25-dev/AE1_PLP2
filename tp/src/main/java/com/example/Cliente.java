@@ -5,7 +5,7 @@ public class Cliente extends Persona {
     private static final int CAPACIDAD_HISTORIAL = 20; // Capacidad máxima del historial de facturas
     
     private double limiteCredito;
-    private String categoria;
+    private String categoria; // reular / premium / corporativo
     private Factura[] historial;
     private int cantidadFacturas; // Contador de facturas en el historial
 
