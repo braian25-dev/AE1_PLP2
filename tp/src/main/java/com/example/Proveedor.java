@@ -28,7 +28,7 @@ public class Proveedor extends Persona {
             productos[cantidadProductos] = producto;
             cantidadProductos++;
         } else {
-            System.out.println("No se puede agregar el producto: catalogo completo.");
+            System.out.println("No se puede agregar el producto: catálogo completo.");
         }
     }
 

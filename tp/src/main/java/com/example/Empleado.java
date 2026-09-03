@@ -34,4 +34,8 @@ public class Empleado extends Persona {
         return departamento;
     }
 
+    public LocalDate getFechaIngreso() { 
+       return fechaIngreso;
+    }
+
 }

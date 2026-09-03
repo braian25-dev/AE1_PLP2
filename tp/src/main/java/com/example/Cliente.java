@@ -1,5 +1,9 @@
 package com.example;
 
+/**
+ * Cliente de la empresa, asociado a un historial de facturas.
+ */
+
 public class Cliente extends Persona {
 
     private static final int CAPACIDAD_HISTORIAL = 20; // Capacidad máxima del historial de facturas

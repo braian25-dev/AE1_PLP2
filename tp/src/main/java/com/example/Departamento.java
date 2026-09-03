@@ -1,12 +1,16 @@
 package com.example;
 
+/**
+ * Departamento de la empresa, gestionado por un responsable y con un conjunto de empleados.
+ */
+
 public class Departamento {
 
     private static int CAPACIDAD_EMPLEADOS = 20;
 
     private String nombre;
-    private double presupuesto;
-    private Empleado responsable;
+    private double presupuesto; 
+    private Empleado responsable; // Empleado responsable del departamento
     private Empleado[] empleados;
     private int cantidadEmpleados;
 
