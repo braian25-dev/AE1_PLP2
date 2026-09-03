@@ -43,7 +43,7 @@ public class Factura {
     }
 
     public void mostrarDetalle() {
-        System.out.println("===== Detalle de Factura N° " + numero + " =====");
+        System.out.println("===== Factura N° " + numero + " =====");
         System.out.println("Fecha de emision: " + fechaEmision);
         System.out.println("Cliente: " + cliente.getNombre());
         System.out.println("Empleado que gestiono la operacion: " + empleado.getNombre());
