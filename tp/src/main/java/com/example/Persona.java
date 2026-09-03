@@ -1,7 +1,7 @@
 package com.example;
 
 /**
- * Clase abstracta base para roda persona vinculada a la empresa.
+ * Clase abstracta base para toda persona vinculada a la empresa.
  * No se intancia directamente: siempre a través de Cliente, Empleado o Proveedor 
  */
 

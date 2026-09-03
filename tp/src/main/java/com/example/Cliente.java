@@ -6,7 +6,7 @@ public class Cliente extends Persona {
     
     private double limiteCredito;
     private String categoria;
-    private Factura[] historialFacturas;
+    private Factura[] historial;
     private int cantidadFacturas; // Contador de facturas en el historial
 
     public Cliente(String nombre, String domicilio, String DNI, String telefono,
@@ -14,8 +14,19 @@ public class Cliente extends Persona {
         super(nombre, domicilio, DNI, telefono);
         this.limiteCredito = limiteCredito;
         this.categoria = categoria;
-        this.historialFacturas = new Factura[CAPACIDAD_HISTORIAL];
+        this.historial = new Factura[CAPACIDAD_HISTORIAL];
         this.cantidadFacturas = 0;
     }
+
+    public void agregarFactura(Factura factura){
+        if (CantidadFacturas < historial.lengt) {
+            historial[CantidadFacturas] = factura;
+            cantidadFacturas++;
+        } else {
+            Sistem.out.println("No se puede agregar la factura: historial completo.")
+        }
+    }
+
+
 
 }
